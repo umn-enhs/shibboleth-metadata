@@ -1,0 +1,112 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://www.healthstudies.umn.edu/shibboleth/public">
+
+	<md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:1.0:protocol">
+
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:KeyName>public.shibboleth.healthstudies.umn.edu</ds:KeyName>
+				<ds:X509Data>
+					<ds:X509SubjectName>emailAddress=help@healthstudies.umn.edu,CN=public.shibboleth.healthstudies.umn.edu,OU=Environmental Health Sciences,O=University of Minnesota,L=Minneapolis,ST=Minnesota,C=US</ds:X509SubjectName>
+					<ds:X509Certificate>MIIEOjCCAyICCQDU+uY83TcfvTANBgkqhkiG9w0BAQUFADCB3jELMAkGA1UEBhMC
+						VVMxEjAQBgNVBAgTCU1pbm5lc290YTEUMBIGA1UEBxMLTWlubmVhcG9saXMxIDAe
+						BgNVBAoTF1VuaXZlcnNpdHkgb2YgTWlubmVzb3RhMSYwJAYDVQQLEx1FbnZpcm9u
+						bWVudGFsIEhlYWx0aCBTY2llbmNlczEwMC4GA1UEAxMncHVibGljLnNoaWJib2xl
+						dGguaGVhbHRoc3R1ZGllcy51bW4uZWR1MSkwJwYJKoZIhvcNAQkBFhpoZWxwQGhl
+						YWx0aHN0dWRpZXMudW1uLmVkdTAeFw0xMDA3MDcxNTQyNTFaFw0yOTA0MTYxNTQy
+						NTFaMIHeMQswCQYDVQQGEwJVUzESMBAGA1UECBMJTWlubmVzb3RhMRQwEgYDVQQH
+						EwtNaW5uZWFwb2xpczEgMB4GA1UEChMXVW5pdmVyc2l0eSBvZiBNaW5uZXNvdGEx
+						JjAkBgNVBAsTHUVudmlyb25tZW50YWwgSGVhbHRoIFNjaWVuY2VzMTAwLgYDVQQD
+						EydwdWJsaWMuc2hpYmJvbGV0aC5oZWFsdGhzdHVkaWVzLnVtbi5lZHUxKTAnBgkq
+						hkiG9w0BCQEWGmhlbHBAaGVhbHRoc3R1ZGllcy51bW4uZWR1MIIBIjANBgkqhkiG
+						9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxrCWKxFz0gqb/KyfA5TYRqFK76XFByKt5uD7
+						Q4lXUFGvC0UKJA3G4g1QXyuXWIcdnGBNye4Ai09yIW8l6Mm9nJaa99bKTlfU2bLc
+						AznbfaQMS2F+Dj6vFk0CsnhIESPTK9+SRfifUaol86efZFZ74IT8W6iGKO5Dr+qP
+						3JJxko1yOqbE+uLWQc/RIL4yldzF61Zdws8m7ddFaoQRFoB7uJa9pJu9+lxAEQCX
+						wNElu++w0UN2iUJEIk5yw6PycpyuHSOcNSjlO1WCYPao9RRqi17ZFWneBop+laQM
+						6xPIO0bkhrzqEZlKwxGJ1ydoNZWAWdP3uUgULi3CDtE4rFMh1wIDAQABMA0GCSqG
+						SIb3DQEBBQUAA4IBAQBbhok+AjdngdEtfEGCOHKj4U6HmeCtWxXqVQ6U/dlDRg6x
+						dhHz6HacQptNdRyVo/kPFwe+N9Y1h1oyH/bVuTQ3eWTEDF/TmgkU7U0YM23gVhLy
+						y2+k2Cv4Uu8VOr/K5zngXYd1lIkzkHEpO7WtikUe8NVn06dH5XH72xGp9nZ05rtz
+						kGUrsdV2XdTEQMyNvG/OVvtTwfGPFn89bG3gi8OlT2+EglvFSRk/1LlpX+WmZTji
+						1tr2cldj1Mugoy7eijr+LeDw2nOyrq/QC/er2V5YyksVRlatRD1fq97kHZZmHh+U
+						1Y7jSxzIDg74HFDCAzs2IE8qtNwnFR0yGQhgjd23
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="encryption">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:KeyName>public.shibboleth.healthstudies.umn.edu</ds:KeyName>
+				<ds:X509Data>
+					<ds:X509SubjectName>emailAddress=help@healthstudies.umn.edu,CN=public.shibboleth.healthstudies.umn.edu,OU=Environmental Health Sciences,O=University of Minnesota,L=Minneapolis,ST=Minnesota,C=US</ds:X509SubjectName>
+					<ds:X509Certificate>MIIEOjCCAyICCQDU+uY83TcfvTANBgkqhkiG9w0BAQUFADCB3jELMAkGA1UEBhMC
+						VVMxEjAQBgNVBAgTCU1pbm5lc290YTEUMBIGA1UEBxMLTWlubmVhcG9saXMxIDAe
+						BgNVBAoTF1VuaXZlcnNpdHkgb2YgTWlubmVzb3RhMSYwJAYDVQQLEx1FbnZpcm9u
+						bWVudGFsIEhlYWx0aCBTY2llbmNlczEwMC4GA1UEAxMncHVibGljLnNoaWJib2xl
+						dGguaGVhbHRoc3R1ZGllcy51bW4uZWR1MSkwJwYJKoZIhvcNAQkBFhpoZWxwQGhl
+						YWx0aHN0dWRpZXMudW1uLmVkdTAeFw0xMDA3MDcxNTQyNTFaFw0yOTA0MTYxNTQy
+						NTFaMIHeMQswCQYDVQQGEwJVUzESMBAGA1UECBMJTWlubmVzb3RhMRQwEgYDVQQH
+						EwtNaW5uZWFwb2xpczEgMB4GA1UEChMXVW5pdmVyc2l0eSBvZiBNaW5uZXNvdGEx
+						JjAkBgNVBAsTHUVudmlyb25tZW50YWwgSGVhbHRoIFNjaWVuY2VzMTAwLgYDVQQD
+						EydwdWJsaWMuc2hpYmJvbGV0aC5oZWFsdGhzdHVkaWVzLnVtbi5lZHUxKTAnBgkq
+						hkiG9w0BCQEWGmhlbHBAaGVhbHRoc3R1ZGllcy51bW4uZWR1MIIBIjANBgkqhkiG
+						9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxrCWKxFz0gqb/KyfA5TYRqFK76XFByKt5uD7
+						Q4lXUFGvC0UKJA3G4g1QXyuXWIcdnGBNye4Ai09yIW8l6Mm9nJaa99bKTlfU2bLc
+						AznbfaQMS2F+Dj6vFk0CsnhIESPTK9+SRfifUaol86efZFZ74IT8W6iGKO5Dr+qP
+						3JJxko1yOqbE+uLWQc/RIL4yldzF61Zdws8m7ddFaoQRFoB7uJa9pJu9+lxAEQCX
+						wNElu++w0UN2iUJEIk5yw6PycpyuHSOcNSjlO1WCYPao9RRqi17ZFWneBop+laQM
+						6xPIO0bkhrzqEZlKwxGJ1ydoNZWAWdP3uUgULi3CDtE4rFMh1wIDAQABMA0GCSqG
+						SIb3DQEBBQUAA4IBAQBbhok+AjdngdEtfEGCOHKj4U6HmeCtWxXqVQ6U/dlDRg6x
+						dhHz6HacQptNdRyVo/kPFwe+N9Y1h1oyH/bVuTQ3eWTEDF/TmgkU7U0YM23gVhLy
+						y2+k2Cv4Uu8VOr/K5zngXYd1lIkzkHEpO7WtikUe8NVn06dH5XH72xGp9nZ05rtz
+						kGUrsdV2XdTEQMyNvG/OVvtTwfGPFn89bG3gi8OlT2+EglvFSRk/1LlpX+WmZTji
+						1tr2cldj1Mugoy7eijr+LeDw2nOyrq/QC/er2V5YyksVRlatRD1fq97kHZZmHh+U
+						1Y7jSxzIDg74HFDCAzs2IE8qtNwnFR0yGQhgjd23
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+
+		<!-- www.cccs.umn.edu -->
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.cccs.umn.edu/Shibboleth.sso/SLO/Redirect"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://www.cccs.umn.edu/Shibboleth.sso/SLO/Artifact"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.cccs.umn.edu/Shibboleth.sso/SLO/SOAP"/>
+		<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.cccs.umn.edu/Shibboleth.sso/NIM/SOAP"/>
+		<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.cccs.umn.edu/Shibboleth.sso/NIM/Redirect"/>
+		<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://www.cccs.umn.edu/Shibboleth.sso/NIM/Artifact"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.cccs.umn.edu/Shibboleth.sso/SAML2/POST" index="1"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://www.cccs.umn.edu/Shibboleth.sso/SAML2/POST-SimpleSign" index="2"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://www.cccs.umn.edu/Shibboleth.sso/SAML2/Artifact" index="3"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://www.cccs.umn.edu/Shibboleth.sso/SAML2/ECP" index="4"/>
+
+		<!-- www.healthstudies.umn.edu -->
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.healthstudies.umn.edu/Shibboleth.sso/SLO/Redirect"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://www.healthstudies.umn.edu/Shibboleth.sso/SLO/Artifact"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.healthstudies.umn.edu/Shibboleth.sso/SLO/SOAP"/>
+		<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.healthstudies.umn.edu/Shibboleth.sso/NIM/SOAP"/>
+		<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.healthstudies.umn.edu/Shibboleth.sso/NIM/Redirect"/>
+		<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://www.healthstudies.umn.edu/Shibboleth.sso/NIM/Artifact"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.healthstudies.umn.edu/Shibboleth.sso/SAML2/POST" index="1"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://www.healthstudies.umn.edu/Shibboleth.sso/SAML2/POST-SimpleSign" index="2"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://www.healthstudies.umn.edu/Shibboleth.sso/SAML2/Artifact" index="3"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://www.healthstudies.umn.edu/Shibboleth.sso/SAML2/ECP" index="4"/>
+
+	</md:SPSSODescriptor>
+
+	<md:Organization>
+		<md:OrganizationName xml:lang="en">University of Minnesota, Environmental Health Studies</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="en">Environmental Health Studies</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="en">http://www.enhs.umn.edu/</md:OrganizationURL>
+	</md:Organization>
+
+	<md:ContactPerson contactType="support">
+		<md:GivenName>Authentication Support</md:GivenName>
+		<md:EmailAddress>help@Healthstudies.umn.edu</md:EmailAddress>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="administrative">
+		<md:GivenName>Aaron</md:GivenName>
+		<md:SurName>Zirbes</md:SurName>
+		<md:EmailAddress>ajz@umn.edu</md:EmailAddress>
+	</md:ContactPerson>
+
+</md:EntityDescriptor>
